@@ -39,7 +39,6 @@ header > article{
 header > article > p{
     margin-top: 2em;
     line-height: 180%;
-
 }
 
 main{
@@ -72,7 +71,7 @@ main > div > img{
     width: 236px;
 }
 
-main > div > article > h2{
+main > div > h2{
     text-align: center;
     margin-bottom: 1em;
 }
