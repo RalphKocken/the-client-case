@@ -3,12 +3,24 @@
 # Titel
 Buurtcampus Oost
 
-Work in progress:
+Check hier de Stekjesbieb pagina!
 https://ralphkocken.github.io/the-client-case/
 
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
+  
+Voor de Buurtcampus-Oost heb ik een pagina gemaakt voor het project: De Stekjesbieb. Het is een simpele overzichtspagina waarin informatie gegeven wordt over hoe de stekjesbieb werkt, welke stekjes er op dit moment beschikbaar zijn en verzorgingsinformatie van de stekjes. Ook wordt er wat algemene informatie gegeven over duurzaamheid, workshops, de plantendocter en de community.
+  
+Buurtcampus-Oost wil met de website graag het volgende bereiken:
+
+ - De campus ook voor jongeren aantrekkelijk maken.
+ - Buurtcampus groener maken.
+ - Buurtbewoners verbinden.
+ - Ruilprincipe verbeteren (zorgen dat mensen niet alleen pakken).
+ - Uiteindelijk is het een cadeau aan de buurt.
+
+  
   * [Kenmerken](#kenmerken)
   * [Bronnen](#bronnen)
   * [Licentie](#licentie)
