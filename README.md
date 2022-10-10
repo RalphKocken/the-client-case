@@ -6,6 +6,9 @@ Buurtcampus Oost
 Check hier de Stekjesbieb pagina!
 https://ralphkocken.github.io/the-client-case/
 
+![Schermopname (10)](https://user-images.githubusercontent.com/106448490/194844176-f28af1d1-4c5a-4f50-b385-4c35e0ffcb68.png)
+
+
 ## Inhoudsopgave
 
   * [Beschrijving](#beschrijving)
