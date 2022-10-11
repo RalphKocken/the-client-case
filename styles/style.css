@@ -3,6 +3,11 @@
     box-sizing: border-box;
 }
 
+@font-face {
+    font-family: BuurtCampus;
+    src: url("../assets/Buurtcampus.ttf");
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 140%;
@@ -13,22 +18,20 @@ body{
     margin-left: 1em;
 }
 
-#openingsdatum{
-    margin-left: 1em;
-}
-
 header{
     display: flex;
     flex-direction: column; 
     flex-wrap: wrap;
     align-items: center;
-    margin-top: 2em;
     margin-bottom: 3em;
-    font-family: Arial, Helvetica, sans-serif;
     color:#333467;
 }
 
 header h1{
+    font-family: BuurtCampus;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
     width: 100%;
     margin-bottom: 1em;
     text-align: center;
@@ -36,9 +39,11 @@ header h1{
 
 header img{
     width: 100%;
-    margin-left: 0;
-    margin-bottom: 1em;
     max-width: 35em;
+}
+
+#steklogo{
+    width: 1.5em;
 }
 
 header article{
@@ -49,12 +54,15 @@ header article{
 
 header h2{
     margin-bottom: 0.5em;
+    text-align: center;
 }
 
 .container{
     margin-bottom: 2em;
+    padding-bottom: 2em;
     background-color: #333467;
 }
+
 .container h2{
     text-align: center;
     color: white;
@@ -67,33 +75,26 @@ header h2{
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    row-gap: 2em;
-    column-gap: 2em;
 }
 
-.stekjeslijst > div{
+.stekjeslijst > div > img{
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    width: 15em;
-    height: 15em;
-    border: 1px solid white;
-    box-shadow: 0 0 2px 0 rgb(0 0 0 / 12%), 0 2px 2px 0 rgb(0 0 0 / 24%);
-    transition: 0.1s;
-    background-color: white;
-    padding: 2em;
-    border-radius: 1em;
-    margin-bottom: 1em;
 }
 
 .stekjeslijst div img{
-    width: 10em;
+    width: 100%
 }
 
-.stekjeslijst div h2{
+.stekjeslijst div h3{
     font-size: 16px;
     color: #333467;
+}
+
+section > ul{
+    color: white;
 }
 
 .content{
@@ -116,28 +117,16 @@ header h2{
 }
 
 footer{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    margin-top: 3em;
-}
-
-footer > img{
-    width: 100%;
-    max-width: 750px;
-}
-
-.footerborder{
-    width: 100%;
-    height: 5em;
+    margin-top: 5em;
+    text-align: center;  
     background-color: #333467;
+    padding: 1em;
+    color: white;
 }
 
-.footertxt{
-    padding-top: 1em;
-    padding-bottom: 1em;
-    font-size: 15px;
-    line-height: 180%;
+footer img{
+    width: 100%;
+    max-width: 600px;
 }
 
 @media screen and (min-width: 820px){
@@ -147,10 +136,6 @@ footer > img{
         justify-content: center;
         align-items: flex-start;
         column-gap: 4em;
-    }
-
-    header h1{
-        margin-bottom: 2em;
     }
 
     .content{
@@ -167,10 +152,6 @@ footer > img{
         margin-bottom: 1em;
     }
 
-    .content article{
-        width: 30em;
-    }
-    
     .container{
         display: flex;
         flex-direction: column;
@@ -179,84 +160,45 @@ footer > img{
         align-items: center;
     }
 
+    .container h2{
+        padding: 2em;
+    }
+
     .stekjeslijst{
        align-items: center;
        justify-content: flex-start;
        overflow-x: scroll;
        overflow-y: hidden;
+       flex-direction: row;
        flex-wrap: nowrap;
-       padding-left: 1em;
-       padding-right: 1em;
-       width: 80%;
-       margin-bottom: 2em;
-       height: 17em;
+       width: 100%;
+       padding-bottom: 2em;
     }
 
-    .stekjeslijst > div > h2{
-        color:#333467;
-    }
-
-    .stekjeslijst > div:hover{
-        margin-top: -10px;
-        box-shadow: 0 0 4px 0 rgb(0 0 0 / 12%),0 4px 4px 0 rgb(0 0 0 / 24%);
-        text-decoration: underline;
-        color: white;
+    .stekjeslijst > div > img{
+        width: 500px;
     }
     
+    .stekjeslijst > div >img:hover{
+        opacity: 80%;
 
+    }
+    
     .stekjeslijst::-webkit-scrollbar{
-        height: 2px;
+        height: 0.5em;
     }
 
     .stekjeslijst::-webkit-scrollbar-thumb{
         background-color: white;
     }
 
+    .stekjeslijst::-webkit-scrollbar-track{
+        background-color: grey;
+    }
     .stekjeslijst::-webkit-scrollbar-button{
-        width: 0.5em;
-    }
+        width: 2em;
 
     }
 
-
-    /*
-    #openingsdatum{
-        margin-left: 1em;
     }
 
-    header{
-        display: flex;
-        flex-direction: row;
-    }
-    header h2{
-        text-align: center;
-
-    }
-    header article {
-        margin-left: 50px;
-        flex-wrap: wrap;
-        width: 30em;
-    }
-
-    header article p {
-        font-size: 1em;
-    }
-
-    .content{
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-    }
-
-    .content > article {
-        padding: 1.5em;
-    }
-
-    .content > article > h2{
-        margin-bottom: 1em;
-    }
-
-    .footertxt{
-        max-width: 50em;
-
-}
