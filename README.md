@@ -28,7 +28,7 @@ Buurtcampus-Oost wil met de website graag het volgende bereiken:
  - Ruilprincipe verbeteren (zorgen dat mensen niet alleen pakken).
  - Uiteindelijk is het een cadeau aan de buurt.
 
-Ook wilde de opdrachtgever graag de huisstijl aanhouden. Daarom zijn sommige bepaalde kleuren, lettertypen en fonts gebruikt.
+Ook wilde de opdrachtgever graag de huisstijl aanhouden. Daarom zijn bepaalde kleuren, lettertypen en fonts gebruikt.
 
 <!-- In de Beschrijving staat hoe je project er uit ziet, hoe het werkt en wat je er mee kan. -->
 <!-- Voeg een mooie poster visual toe 📸 -->
