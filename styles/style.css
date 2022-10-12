@@ -8,6 +8,10 @@
     src: url("../assets/Buurtcampus.ttf");
 }
 
+h1, h2, h3{
+    font-family: BuurtCampus;
+}
+
 body{
     font-family: Arial, Helvetica, sans-serif;
     line-height: 140%;
