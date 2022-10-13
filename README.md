@@ -6,7 +6,7 @@ Buurtcampus Oost
 Check hier de Stekjesbieb pagina!
 https://ralphkocken.github.io/the-client-case/
 
-![Schermopname (10)](https://user-images.githubusercontent.com/106448490/194844176-f28af1d1-4c5a-4f50-b385-4c35e0ffcb68.png)
+![Screenshot (16)](https://user-images.githubusercontent.com/106448490/195294527-c3d4aece-1942-4d26-8921-03f939877da5.png)
 
 
 ## Inhoudsopgave
@@ -18,7 +18,13 @@ https://ralphkocken.github.io/the-client-case/
 
 ## Beschrijving
 
-Voor de Buurtcampus-Oost heb ik een pagina gemaakt voor het project: De Stekjesbieb. Het is een simpele overzichtspagina waarin informatie gegeven wordt over hoe de stekjesbieb werkt, welke stekjes er op dit moment beschikbaar zijn en verzorgingsinformatie van de stekjes. Ook wordt er wat algemene informatie gegeven over duurzaamheid, workshops, de plantendocter en de community.
+Voor de Buurtcampus-Oost heb ik een pagina gemaakt voor hun project: De Stekjesbieb. 
+
+Van de drie beschikbare user stories heb ik de volgende gekozen:
+
+"Als buurtbewoner van Amsterdam Oost wil ik informatie vinden over het verzorgen van planten, zodat ik niet steeds nieuwe planten hoef te kopen en daarme verspilling tegen ga"
+
+Het is een simpele overzichtspagina waarin informatie gegeven wordt over hoe de stekjesbieb werkt, welke stekjes er op dit moment beschikbaar zijn en verzorgingsinformatie van de stekjes. Ook wordt er wat algemene informatie gegeven over duurzaamheid, workshops, de plantendocter en de community.
   
 Buurtcampus-Oost wil met de website graag het volgende bereiken:
 
@@ -36,9 +42,7 @@ Ook wilde de opdrachtgever graag de huisstijl aanhouden. Daarom zijn bepaalde kl
 
 ## Kenmerken
 <!-- Bij Kenmerken staat welke technieken zijn gebruikt en hoe. Wat is de HTML structuur? Wat zijn de belangrijkste dingen in CSS? Wat is er met Javascript gedaan en hoe? Misschien heb je een framwork of library gebruikt? -->
-De pagina is gemaakt met HTML en CSS. 
-
-
+De pagina is gemaakt met HTML en CSS.
 
 
 ## Bronnen
