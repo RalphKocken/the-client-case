@@ -112,7 +112,7 @@ header h2{
 .stekjeslijst > div > button{
     position: absolute;
     top: 20%;
-    left: 85%;
+    left: 80%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     border: none;
@@ -125,12 +125,13 @@ header h2{
 }
 
 dialog{
-    border-radius: 1em;
+    border-radius: 0.5em;
     border: none;
     margin: auto;
     width: 30em;
     max-width: 30em;
     padding: 0;
+    background-color: #333467;
 }
 
 .stekdialog{
@@ -142,8 +143,7 @@ dialog{
     padding: 1em;
     padding-bottom: 2em;
     color: white;
-    background-color: #333467;
-    border:
+    border: none;
 }
 
 
