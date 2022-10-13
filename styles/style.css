@@ -70,6 +70,30 @@ header h2{
 .container h2{
     text-align: center;
     color: white;
+    padding: 1em;
+}
+
+.stekjeslijst{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    overflow-x: scroll;
+    padding-bottom: 1em;
+}
+
+.stekjeslijst::-webkit-scrollbar{
+    height: 0.5em;
+}
+
+.stekjeslijst::-webkit-scrollbar-thumb{
+    background-color: white;
+}
+
+.stekjeslijst::-webkit-scrollbar-track{
+    background-color: grey;
+}
+.stekjeslijst::-webkit-scrollbar-button{
+    width: 2em;
 }
 
 .stekjeslijst > div{
@@ -82,7 +106,7 @@ header h2{
 }
 
 .stekjeslijst > div > img{
-    width: 100%;
+    width: 300px;
 }
 
 .stekjeslijst > div > button{
@@ -99,7 +123,7 @@ header h2{
 }
 
 button > img{
-    width: 70px;
+    width: 60px;
 }
 
 dialog{
@@ -190,7 +214,7 @@ footer img{
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        gap: 5em;
+        column-gap: 5em;
     }
 
     .content h2{
@@ -204,10 +228,6 @@ footer img{
         background-color: #333467;
         justify-content: center;
         align-items: center;
-    }
-
-    .container h2{
-        padding: 2em;
     }
 
     .stekjeslijst{
@@ -237,21 +257,6 @@ footer img{
         width: 500px;
     }
     
-    .stekjeslijst::-webkit-scrollbar{
-        height: 0.5em;
-    }
-
-    .stekjeslijst::-webkit-scrollbar-thumb{
-        background-color: white;
-    }
-
-    .stekjeslijst::-webkit-scrollbar-track{
-        background-color: grey;
-    }
-    .stekjeslijst::-webkit-scrollbar-button{
-        width: 2em;
-    }
-
     #fotostek1{
         border-radius: 1em;
         width: 400px;
