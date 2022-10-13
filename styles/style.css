@@ -4,7 +4,7 @@
 }
 
 @font-face {
-    font-family: BuurtCampus;
+    font-family: Buurtcampus;
     src: url("../assets/Buurtcampus.ttf");
 }
 
@@ -70,10 +70,10 @@ header h2{
 .container h2{
     text-align: center;
     color: white;
-    padding: 1em;
 }
 
-.stekjeslijst{
+.stekjeslijst > div{
+    position: relative;
     font-family: Arial, Helvetica, sans-serif;
     display: flex;
     flex-direction: row;
@@ -82,19 +82,61 @@ header h2{
 }
 
 .stekjeslijst > div > img{
+    width: 100%;
+}
+
+.stekjeslijst > div > button{
+    position: absolute;
+    top: 20%;
+    left: 85%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    background-size: 3em;
+    background-color: transparent;
+    background-position: top center;
+    border: none;
+    border-radius: 0.4em;
+}
+
+button > img{
+    width: 70px;
+}
+
+dialog{
+    border-radius: 1em;
+    margin: auto;
+    width: 30em;
+    max-width: 30em;
+    padding: 0;
+}
+
+.stekdialog{
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
+    height: 100%;
+    gap: 1em;
+    padding: 1em;
+    padding-bottom: 2em;
+    color: white;
+    background-color: #333467;
 }
 
-.stekjeslijst div img{
-    width: 100%
+.stekdialog button{
+    margin-left: 90%;
 }
 
-.stekjeslijst div h3{
-    font-size: 16px;
-    color: #333467;
+dialog:modal{
+    max-width: 100%;
+}
+
+dialog::backdrop{
+    opacity: 70%;
+    background-color: black;
+}
+
+.stekdialog > img{
+    width: 100%;
 }
 
 section > ul{
@@ -169,23 +211,30 @@ footer img{
     }
 
     .stekjeslijst{
-       align-items: center;
-       justify-content: flex-start;
-       overflow-x: scroll;
-       overflow-y: hidden;
-       flex-direction: row;
-       flex-wrap: nowrap;
-       width: 100%;
-       padding-bottom: 2em;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: flex-start;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        flex-direction: row;
+        flex-wrap: nowrap;
+        width: 100%;
+        padding-bottom: 2em;
     }
 
-    .stekjeslijst > div > img{
-        width: 500px;
+    button > img{
+        width: 90px;
+        height: 90px;
+        transition: 0.2s;
+    }
+
+    button > img:hover{
+        transform: scale(1.2);
     }
     
-    .stekjeslijst > div >img:hover{
-        opacity: 80%;
-
+    .stekjeslijst > div > img {
+        width: 500px;
     }
     
     .stekjeslijst::-webkit-scrollbar{
@@ -201,8 +250,45 @@ footer img{
     }
     .stekjeslijst::-webkit-scrollbar-button{
         width: 2em;
-
     }
 
+    #fotostek1{
+        border-radius: 1em;
+        width: 400px;
+        margin-top: 2em;
     }
 
+    dialog{
+        border-radius: 1em;
+        margin: auto;
+        width: 30em;
+        padding: 0;
+        overflow-y: hidden;
+        transition: 0.2s;
+    }
+    
+    .stekdialog{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        height: 90%;
+        gap: 1em;
+        padding: 1em;
+        padding-bottom: 2em;
+        color: white;
+        background-color: #333467;
+    }
+    
+    .stekdialog button{
+        margin-left: 90%;
+    }
+    
+    dialog::backdrop{
+        opacity: 70%;
+        background-color: black;
+    }
+    
+    .stekdialog > img{
+        width: 100%;
+    }
+}
