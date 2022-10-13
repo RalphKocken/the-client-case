@@ -112,16 +112,15 @@ header h2{
 .stekjeslijst > div > button{
     position: absolute;
     top: 20%;
-    left: 80%;
+    left: 85%;
     transform: translate(-50%, -50%);
     -ms-transform: translate(-50%, -50%);
     border: none;
     background-color: transparent;
-    width: 60px;
 }
 
 .dialogbtn > img{
-    width: 60px;
+    width: 70px;
 }
 
 dialog{
@@ -145,7 +144,6 @@ dialog{
     color: white;
     border: none;
 }
-
 
 .stekdialog > button{
     background-color: transparent;
@@ -282,10 +280,6 @@ footer img{
         padding-bottom: 2em;
         color: white;
         background-color: #333467;
-    }
-    
-    .stekdialog button{
-        margin-left: 90%;
     }
     
     dialog::backdrop{
